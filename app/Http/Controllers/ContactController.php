@@ -19,8 +19,5 @@ class ContactController extends Controller
         return view('thanks');
     }
 
-    public function send()
-    {
-        return view('send');
-    }
+    
 }
